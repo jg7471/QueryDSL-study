@@ -1,10 +1,12 @@
+package com.example.study.entity;
+
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
-@Getter
-@Setter
+@Getter @Setter
 @ToString(exclude = "members") @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor

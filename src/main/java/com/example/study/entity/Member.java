@@ -1,8 +1,8 @@
+package com.example.study.entity;
+
 import jakarta.persistence.*;
 import lombok.*;
-
-@Getter
-@Setter
+@Getter @Setter
 @ToString(exclude = "team") @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor

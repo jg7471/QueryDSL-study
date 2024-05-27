@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 import jakarta.annotation.PostConstruct;
 import java.util.Locale;
-
+//JPA 쿼리 자세한 출력 코드 : 외울 필요X
 @Configuration
 public class P6SpySqlFormatter implements MessageFormattingStrategy {
 
