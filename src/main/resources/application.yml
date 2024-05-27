@@ -1,0 +1,15 @@
+server:
+  port: 8181
+spring:
+  application:
+      name: study
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa?serverTimezone=Asia/Seoul
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    database: mysql
